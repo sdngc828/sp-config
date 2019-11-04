@@ -16,6 +16,7 @@ zuul:
     item-service: /item-service/**
     user-service: /user-service/**
     order-service: /order-service/**
+  sensitive-headers:   
 ribbon:
   ConnectTimeout: 1000
   ReadTimeout: 1000
